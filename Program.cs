@@ -6,19 +6,30 @@
    // : "You cannot go to army!";
 // Console.WriteLine(message);
 
-//string username = Console.ReadLine();
-//switch(username)
-//{
-  //  case "Elbek":
-    //    Console.WriteLine("Teacher is here");
-      //  break;
-    //case "Izzatillo":
-      //  Console.WriteLine("I am here");
-        //break;
-    //default:    
-     //   Console.WriteLine("Noone is here");
-       // break;     
-//}
+string username = Console.ReadLine();
+switch(username)
+{
+    case "Kopaytiramiz":
+        int firstNumber = 15;
+        int secondNumber = 25;
+
+        int Kopaytiramiz = firstNumber * secondNumber;
+        Console.WriteLine("Natija = " + Kopaytiramiz);
+        break;
+
+    case "Bolish":
+        decimal first = 30;
+        decimal second = 20;
+
+        decimal javob = first / second;
+        Console.WriteLine("yechim = " + javob);
+       
+        break;
+
+    default:    
+        Console.WriteLine("Natija = 0");
+        break;     
+}
 
 //string usersname = Console.ReadLine();
 //if (usersname == "Elbek")
@@ -34,14 +45,14 @@
  //   Console.WriteLine("None is here");
 //}
 
-using System;
+//using System;
 // if -> tenary operator
 // switch -> pattern matching
-string username = Console.ReadLine();
-string message = username switch
-{
-    "Elbek" => "Teacher is here",
-    "Izzatillo" => "I am here",
-    _ => "Noone is here"
-};
-Console.WriteLine(message);
+//string username = Console.ReadLine();
+//string message = username switch
+//{
+    //"Elbek" => "Teacher is here",
+    //"Izzatillo" => "I am here",
+  //  _ => "Noone is here"
+//};
+//Console.WriteLine(message);
